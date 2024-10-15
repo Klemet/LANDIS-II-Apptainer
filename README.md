@@ -151,6 +151,8 @@ Then, you need to download and compile the extensions one by one. The process is
 
 Once you've done this, use `dotnet build` from inside the folder where the `.csproj` file is (e.g. do `cd /bin/LANDIS_Linux/Extension-Biomass-Succession/src` and then `dotnetbuild`). This test the compiling to see if there are any errors. Then, use `dotnet build -c Release` to finish the compiling. End up by checking if the `.dll` of the extension is correctly inside `/bin/LANDIS_Linux/build/extensions` (e.g. look for `Landis.Extension.Succession.Biomass-v5.dll` in the case of Biomass Succession v5).
 
+**I highly recommend that you test if the extensions function properly right now, as you are still inside the sandbox environnement**. You better see if there are errors right now, as you're still able to correct them. Every extension folder cloned from Github often contains a set of test files; I recommend you run the test scenario that goes with them. To run it, go in the folder with the test scenario, and then use `dotnet /bin/LANDIS_Linux/build/Release/Landis.Console.dll {nameOftheScenarioMainFile}.txt`. LANDIS-II should launch the simulation with your test scenario properly at this point. If something doesn't work, be certain that the path to `Landis.Console.dll` is correct in your command. 
+
 One last thing : I recommend you note the extensions you have compiled in this way and their versions. A good way to do this is by adding their information in the file `/bin/LANDIS_Linux/build/extensions/extensions.xml` :
 
 ![image](https://github.com/user-attachments/assets/d9d139fa-81b6-42fb-9ab9-12d12c4348be)
