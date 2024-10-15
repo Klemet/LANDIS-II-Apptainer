@@ -177,3 +177,10 @@ Same thing goes with R.
 **Congratulations, you're done 🎉🎊 !**
 
 To see how to use the Apptainer file to launch your LANDIS-II simulation, see the sections above.
+
+### BONUS - Modifying or updating an Apptainer file
+
+This is pretty simple :
+
+- If you've kept the sandbox folder somewhere, just use the instructions above to enter it and modify it from the inside.
+- If you haven't kept the sandbox folder, you can recreate one from a  `.sif` with the command `sudo apptainer build --sandbox <SANDBOX_DIR> <CONTAINER>.sif`; use `sudo apptainer shell --writable <SANDBOX_DIR>` to enter it and edit it, and then `sudo apptainer build <NEW_CONTAINER>.sif <SANDBOX_DIR>` to create your new `.sif` file.
