@@ -23,7 +23,7 @@ Apptainers have many advantages, and doubly so for people using the [LANDIS-II m
 
 ## 💾 How to download and use an already made Apptainer with LANDIS-II
 
-This repository contains Apptainer files that I have already prepared with LANDIS-II. You can download them on the [release](https://github.com/Klemet/LANDIS-II-Apptainer/releases) page. **Be careful about the versions of the different extensions; be sure of what you're using !** If you need other versions, create an Apptainer yourself by following the instructions below; it's not too complicated, and it will save you time on the long run !
+This repository contains Apptainer files that I have already prepared with LANDIS-II. You can download them on the [release](https://github.com/Klemet/LANDIS-II-Apptainer/releases) page. **Be careful about the versions of the different extensions; be sure of what you're using !** If you need other versions, create an Apptainer yourself by following the instructions below; it's not too complicated, and it will save you time on the long run ! You can also use the instructions at the end of this Readme to modify an existing Apptainer (and thus start with the ones you can download here).
 
 The Apptainer takes the form of a `.sif` file. The file is often fairly large (around 1GB minimum), as it contains an entire OS.
 
