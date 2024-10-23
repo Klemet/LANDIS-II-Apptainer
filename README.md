@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repository is archived, and has been transfered to the LANDIS-II foundation. [You can access the up-to-date repository here](https://github.com/LANDIS-II-Foundation/Tool-Apptainer).
+
 <p align="center"><img src="logo_Landis_Apptainer.svg" width="250"></p>
 
 <h1 align="center">LANDIS-II Apptainer</h1>
